@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "PassUsingViewData";
+    var calc = ViewData["Calc"] as CalcServiceModel;
+}
+
+<h1>PassUsingViewData</h1>
+<div style="font-weight:bold">Rand value first : @calc.RandValueFirst</div>
+<div style="font-weight:bold">Rand value second : @calc.RandValueSecond</div>
+<div style="font-weight:bold">Add:</div>
+<div>@calc.Add</div>
+<div style="font-weight:bold">Sub:</div>
+<div>@calc.Sub</div>
+<div style="font-weight:bold">Mult:</div>
+<div>@calc.Mult</div>
+<div style="font-weight:bold">Div:</div>
+<div>@calc.Div</div>
+
